@@ -1,0 +1,15 @@
+# robots.txt for MantraGen
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+# Disallow admin/config files (if any)
+Disallow: /admin/
+Disallow: /config/
+
+# Sitemap location
+Sitemap: https://mantragen.app/sitemap.xml
+
+# Crawl delay (optional, respectful to servers)
+Crawl-delay: 1
