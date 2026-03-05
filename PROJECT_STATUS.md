@@ -1,7 +1,7 @@
 # MantraGen - 项目状态
 
 ## 版本
-**v0.2.0** - 2026-03-05
+**v1.0.0** - 2026-03-05 🎉 正式上线！
 
 ## 项目概述
 **Personalized Mantra Generator** - 极简前端出海网站
@@ -40,7 +40,12 @@
 - [x] GitHub 仓库创建
 - [x] 代码推送到 GitHub
 - [x] GitHub Pages 激活
-- [x] 网站上线：https://cicadaca.github.io/mantragen/
+- [x] GoDaddy DNS CNAME 配置
+- [x] 自定义域名配置
+- [x] HTTPS/SSL 激活
+- [x] 社交分享图片（OG + Twitter）
+- [x] Google Analytics 安装 (G-7T3H55N519)
+- [x] **网站正式上线！** ✨
 
 ### ✅ 设计优化 (Day 1)
 - [x] 6种预设焦虑场景（Work Stress, Anxiety, Insomnia, Overwhelmed, Self Doubt, Burnout）
@@ -77,8 +82,8 @@
 ```
 
 ## 线上地址
-- **GitHub Pages**: https://cicadaca.github.io/mantragen/
-- **计划域名**: mantragen.prosperai.live（待配置）
+- **主域名**: https://mantragen.prosperai.live/ ✅
+- **GitHub Pages**: https://cicadaca.github.io/mantragen/ (备用)
 
 ## 本地开发
 ```bash
@@ -87,24 +92,20 @@ python3 -m http.server 8080
 # 访问 http://localhost:8080
 ```
 
-## 下一步 (上线前待办)
+## 下一步 (上线后待办)
 
-### 🔴 P0 - 必须完成才能上线
-- [x] 购买/准备域名（已有：prosperai.live）
-- [x] 部署网站到线上（已完成：GitHub Pages）
-- [ ] 配置自定义域名（mantragen.prosperai.live）
-- [ ] 更新代码中的域名链接
-- [ ] Stripe 切换到真实账户
-- [ ] 创建社交分享图片（OG + Twitter）
+### 🔴 P0 - 支付功能完善
+- [ ] Stripe 真实账户激活（遇到问题，待处理）
 
-### 🟡 P1 - 上线后24小时内
-- [ ] 安装 Google Analytics
+### 🟡 P1 - 营销推广准备
 - [ ] 提交 sitemap 到 Google Search Console
 - [ ] Product Hunt 发布资料准备
-
-### 🔵 P2 - 营销推广
 - [ ] Pinterest 广告素材制作（10 pins）
-- [ ] Reddit 社区发帖脚本
+
+### 🔵 P2 - 后续优化
+- [ ] 接入 OpenAI API 生成动态 Mantra
+- [ ] Reddit 社区发帖
+- [ ] 用户反馈收集
 
 ## 衡量指标
 
@@ -139,6 +140,13 @@ python3 -m http.server 8080
 - 配置子域名 mantragen.prosperai.live
 - 部署方式：GitHub Pages（免费稳定）
 
+### 2026-03-05 - 网站正式上线 🎉
+- 完成域名配置、HTTPS 激活
+- 完成 SEO & GEO 优化
+- 完成社交分享图片
+- 完成Google Analytics 安装
+- **网站正式上线：https://mantragen.prosperai.live/**
+
 ## 技术债务
 - [ ] Mantra内容目前是预设的，考虑接入AI
 - [ ] 支付流程未完成
@@ -156,4 +164,5 @@ python3 -m http.server 8080
 
 ---
 **最后更新：** 2026-03-05
-**下次继续：** 配置自定义域名 mantragen.prosperai.live
+**状态：** 🎉 网站已正式上线！ https://mantragen.prosperai.live/
+**下次继续：** Product Hunt 发布准备 + Stripe 真实账户激活
