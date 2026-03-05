@@ -1,7 +1,7 @@
 # MantraGen - 项目状态
 
 ## 版本
-**v1.0.0** - 2026-03-05 🎉 正式上线！
+**v1.1.0** - 2026-03-05 🚀 Product Hunt 发布已预约！
 
 ## 项目概述
 **Personalized Mantra Generator** - 极简前端出海网站
@@ -47,6 +47,13 @@
 - [x] Google Analytics 安装 (G-7T3H55N519)
 - [x] **网站正式上线！** ✨
 
+### ✅ 营销准备 (Day 2)
+- [x] Product Hunt 账号注册
+- [x] 产品页面创建
+- [x] Logo 设计
+- [x] 产品描述撰写
+- [x] **发布预约完成！** 🎯
+
 ### ✅ 设计优化 (Day 1)
 - [x] 6种预设焦虑场景（Work Stress, Anxiety, Insomnia, Overwhelmed, Self Doubt, Burnout）
 - [x] 自定义场景输入
@@ -72,13 +79,17 @@
 ## 文件结构
 ```
 出海网站/
-├── index.html       # 主页面（含SEO优化）
-├── style.css        # 样式（Calm风格）
-├── app.js           # 核心逻辑（含Stripe支付链接）
-├── robots.txt       # 搜索引擎爬虫指引
-├── sitemap.xml      # 网站地图
-├── PROJECT_STATUS.md # 项目状态（本文件）
-└── STRIPE_SETUP.md  # Stripe设置指南
+├── index.html              # 主页面（含SEO + GA）
+├── style.css               # 样式（Calm风格）
+├── app.js                  # 核心逻辑 + Stripe支付链接
+├── robots.txt              # 搜索引擎爬虫指引
+├── sitemap.xml             # 网站地图
+├── og-image.png            # 社交分享图片 (1200x630)
+├── twitter-image.png       # Twitter卡片图片 (1200x600)
+├── logo.png                # 产品Logo (200x200)
+├── PROJECT_STATUS.md       # 项目状态（本文件）
+├── STRIPE_SETUP.md         # Stripe设置指南
+└── PRODUCT_HUNT_LAUNCH.md  # Product Hunt发布指南
 ```
 
 ## 线上地址
@@ -97,15 +108,17 @@ python3 -m http.server 8080
 ### 🔴 P0 - 支付功能完善
 - [ ] Stripe 真实账户激活（遇到问题，待处理）
 
-### 🟡 P1 - 营销推广准备
-- [ ] 提交 sitemap 到 Google Search Console
-- [ ] Product Hunt 发布资料准备
-- [ ] Pinterest 广告素材制作（10 pins）
+### 🟡 P1 - Product Hunt 发布
+- [x] Product Hunt 发布资料准备
+- [x] 产品页面创建
+- [x] 发布预约
+- [ ] **等待发布日期** ⏰
+- [ ] 发布当天执行互动计划
 
-### 🔵 P2 - 后续优化
-- [ ] 接入 OpenAI API 生成动态 Mantra
+### 🔵 P2 - 其他营销准备
+- [ ] 提交 sitemap 到 Google Search Console
+- [ ] Pinterest 广告素材制作（10 pins）
 - [ ] Reddit 社区发帖
-- [ ] 用户反馈收集
 
 ## 衡量指标
 
@@ -164,5 +177,6 @@ python3 -m http.server 8080
 
 ---
 **最后更新：** 2026-03-05
-**状态：** 🎉 网站已正式上线！ https://mantragen.prosperai.live/
-**下次继续：** Product Hunt 发布准备 + Stripe 真实账户激活
+**版本：** v1.1.0
+**状态：** 🎉 网站已上线 + 🚀 Product Hunt 发布已预约
+**下次继续：** Product Hunt 发布当天执行 + Stripe 真实账户激活
